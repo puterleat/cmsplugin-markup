@@ -1,0 +1,8 @@
+==========================
+cmsplugin-markup changelog
+==========================
+
+Version 0.1, 30 Nov 2009:
+------------------------
+
+* First packaged version usting distutils.

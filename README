@@ -1,0 +1,12 @@
+========================
+Django CMS Markup
+========================
+
+This is a fairly simple plugin for django-cms that allows using various markup
+languages on a page. It impliments each of the various markup languages via 
+a plugin based backend system. By default it comes with Markdown, ReST and 
+Textile. It depends on Django 1.1 or newer and on Django-Cms 2.0 final or newer.
+
+For installation instructions, see the file "INSTALL" in this directory; for
+instructions on how to write your own backends, see the file "backends.rst" in
+the "docs/" directory.

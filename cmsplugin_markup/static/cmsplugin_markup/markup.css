@@ -1,0 +1,51 @@
+textarea.django-resizable {
+	width: 100%;
+}
+
+div.django-grip {
+	background: url("grip.png") no-repeat scroll center 1px #EEEEEE;
+	border-color: #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	cursor: s-resize;
+	height: 5px;
+	overflow: hidden;
+}
+
+#plugins_list .divimg {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+}
+
+#plugins_list .divimg img {
+	max-width: 32px;
+	max-height: 32px;
+	cursor: pointer;
+}
+
+#plugins_list span {
+	cursor: pointer;
+}
+
+#plugins_list ul {
+	padding: 0;
+}
+
+#plugins_list li {
+	min-height: 32px;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0;
+}
+
+#plugins_list li:hover {
+	background-color: #FFFFE0;
+}
+
+.iftextplugins {
+	display: none;
+}

@@ -1,0 +1,34 @@
+Thanks for downloading cmsplugin-markup.
+
+To install it, run the following command inside this directory:
+
+    python setup.py install
+
+If you have the Python ``easy_install`` utility available, you can also type 
+the following to download and install in one step::
+
+    easy_install cmsplugin-markup
+
+Or if you're using ``pip``::
+
+    pip install cmsplugin-markup
+
+Or if you'd prefer you can simply place the included ``cmsplugin_markup`` 
+directory somewhere on your Python path, or symlink to it from somewhere on
+your Python path; this is useful if your working from a Mercurial checkout.
+
+If you want preview functionality in admin to work you have to add something
+like:
+
+    (r'^admin/cms/plugin/markup/', include('cmsplugin_markup.urls')),
+
+to the very beginning of your ``urls.py``.
+
+Note that this application requires Python2.3 or later, and a functional
+installation of Django 1.` or newer as well as a functional install of 
+Django-CMS 2.` Final or newer. Each of the markup plugins also have their own 
+dependencies.
+
+The Markdown Backend requires the Python Markdown Library
+The Textile Backend requires the Python Textile Library
+The ReST Backend requires the Python Docutils Library
